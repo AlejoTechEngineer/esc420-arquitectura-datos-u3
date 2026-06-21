@@ -1,5 +1,11 @@
+<div align="center">
+
 # ESC420 — Arquitectura de Datos · Unidad 3
 ### Almacenamiento de Datos y Arquitecturas ACID y BASE
+
+</div>
+
+---
 
 ---
 
@@ -95,3 +101,12 @@ Los siguientes documentos del módulo fueron usados como base teórica:
 ---
 
 *Politécnico Grancolombiano · Bogotá D.C. · 2026*
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
