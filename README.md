@@ -74,6 +74,28 @@ El análisis concluye que la multinacional requiere una **arquitectura híbrida*
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Multinacional alimenticia - Latinoamerica] --> B{Sistemas fuente}
+    B --> C[ERP / CRM / MES-SCADA - Sistemas transaccionales]
+    B --> D[Redes sociales / Encuestas - Datos externos masivos]
+    C --> E[RDBMS SQL - Arquitectura ACID]
+    D --> F[NoSQL Document Store - Arquitectura BASE]
+    E --> G{Propiedades ACID}
+    G --> H[Atomicidad]
+    G --> I[Consistencia]
+    G --> J[Aislamiento]
+    G --> K[Durabilidad]
+    F --> L{Propiedades BASE}
+    L --> M[Basically Available]
+    L --> N[Soft State]
+    L --> O[Eventual Consistency]
+    E & F --> P[Arquitectura Hibrida - Conclusion]
+    P --> Q[Desarrollo_U2_ArquitecturaDatos_Final_Alejandro_De_Mendoza.pdf]
+```
+
 ## Estructura del Repositorio
 
 ```
